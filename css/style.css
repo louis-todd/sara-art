@@ -15,10 +15,27 @@ html {
 
 body {
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   line-height: 1;
   font-weight: 400;
   color: #555;
+  background-color: #fffbeb;
+}
+
+.container {
+  /* 1200px or 1140px is the conventional width to use */
+  max-width: 120rem;
+  margin: 0 auto;
+  /* With padding width basically equals 1140px */
+  padding: 0 3.2rem;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 9.2rem;
+  padding: 4.8rem 0;
 }
 
 h1 {
@@ -37,4 +54,31 @@ p {
 
 .price {
   font-size: 4.8rem;
+}
+
+/* CTA */
+.cta-section {
+  padding: 0 2.4rem;
+  margin-bottom: 2.4rem;
+}
+
+.cta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.2rem;
+
+  border-radius: 3.6rem;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+}
+
+.cta-blurb {
+  padding: 1.2rem;
+  font-weight: 600;
+}
+
+.img-sara {
+  justify-self: center;
+  align-self: center;
+  height: 36rem;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
 }
