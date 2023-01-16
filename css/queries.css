@@ -1,9 +1,17 @@
 @media (max-width: 76em) {
-  .bacp-member {
+  .mbacp {
     display: none;
+  }
+
+  .bacp-member {
+    width: 40rem;
   }
 }
 @media (max-width: 56em) {
+  .header {
+    flex-direction: column;
+    gap: 5rem;
+  }
   .cta {
     grid-template-columns: 1fr;
   }
