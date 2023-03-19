@@ -1,6 +1,5 @@
 .first {
   background-color: #fef3c7;
-  padding-bottom: 4.8rem;
 }
 
 .header {
@@ -23,6 +22,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 3.6rem;
 }
 
 h1 {
@@ -86,8 +86,8 @@ p {
 
 /* CTA */
 .cta-section {
-  padding: 0 2.4rem;
-  margin-bottom: 6.4rem;
+  padding: 3.6rem 2.4rem 10.2rem;
+  /* margin-bottom: 6.4rem; */
   /* background-image: url("../img/seafront-beach-huts.jpg");
   background-size: cover;
   background-position: bottom; */
@@ -135,7 +135,7 @@ p {
 }
 
 .about-me-section-box {
-  padding-top: 9.6rem;
+  padding-top: 6.4rem;
   /* border-bottom: 1px #555 solid; */
 }
 
@@ -200,6 +200,7 @@ footer {
   align-items: center;
   gap: 4.2rem;
   padding: 4.8rem;
+  border-top: 1px #e5dbb3 solid;
 }
 
 .bacp-logo {
