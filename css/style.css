@@ -11,7 +11,8 @@
   padding: 3.2rem 0;
 }
 
-.header header {
+header {
+  font-family: "Lora", serif;
   font-size: 7.4rem;
   font-weight: 600;
 }
@@ -138,13 +139,77 @@ p {
   /* border-bottom: 1px #555 solid; */
 }
 
+/* NAVIGATION */
+
+.header {
+  border-bottom: 1px #e5dbb3 solid;
+}
+
+.header-nav {
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.04);
+}
+
+.main-nav {
+  padding: 0 9.6rem;
+}
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  /* background-color: #d97706; */
+  padding: 4.8rem;
+  gap: 4.8rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #d97706;
+  font-weight: 500;
+  font-size: 3.2rem;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #b45309;
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+  color: #fff;
+  background-color: #d97706;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  background-color: #b45309;
+}
+
+/* FOOTER */
+
 footer {
   display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 4.2rem;
   padding: 4.8rem;
 }
 
 .bacp-logo {
-  margin-left: auto;
-  display: block;
   height: 10rem;
+}
+
+.pt-logo {
+  height: 10rem;
+}
+
+.therapyhubLink {
+  max-width: 31.1rem;
 }
